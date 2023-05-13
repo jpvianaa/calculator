@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.geral {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background-color: #212121;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+table {
+  padding-top: 4px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(49, 57, 60);
+  color: rgb(255 255 255);
+  /* padding-right: 3px; */
+  user-select: none;
+}
+
+#raiz {
+  padding-right: 3px;
+}
+
+.op {
+  background-color: rgb(33, 118, 255);
+}
+
+#apagar {
+  background-color: black;
+}
+
+#igual {
+  background-color: rgb(253, 202, 64);
+  color: black;
+}
+
+#zero {
+  width: 102px;
+}
+
+.display {
+  /* background-color: rgb(255, 255, 255); */
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  color: rgb(255, 255, 255);
+  margin-top: 4px;
+  border-radius: 50px;
+  text-align: end;
+  font-size: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.display span {
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.display::selection {
+  background-color: rgb(51, 161, 253);
+}
+
+button:active {
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+#apagar:active {
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+#igual:active {
+  background-color: rgba(255, 255, 255, 0.396);
+}
